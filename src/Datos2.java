@@ -8,28 +8,18 @@
  *
  * @author educacionit
  */
-public class Datos {
+public class Datos2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        Pila p = new Pila(5);
-        
-        p.empujar("A");
-        p.empujar("C");
-        p.empujar("D");
-        p.empujar("E");
-        //System.out.println(p.sacar());
+        Pila2 p2 = new Pila2(4);
+       p2.empujar(Integer.parseInt("30"));
        
-        p.listar();
-        p.listar1();
-        
-        String  e = (String)p.sacar(); // casteo para asegur que salga string 
-        
-        System.out.println(e);
+       p2.listar();
+       
     }
     
 }
